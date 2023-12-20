@@ -19,7 +19,7 @@
         const updateButton = document.getElementById("update-button");
         
         //函數用於獲取API數據並更新HTML頁面
-        function updataAirQuality()
+        function updateAirQuality()
         {
             airQualityElement.textContent = "更新中";
             //在這裡執行API請求，獲取最新的空氣品質數值
@@ -45,7 +45,7 @@
         updateButton.addEventListener("click", updateAirQuality);
 
         //初始更新一次空氣品質
-        updataAirQuality();
+        updateAirQuality();
     </script>
     
 </body>
